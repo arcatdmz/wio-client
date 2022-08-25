@@ -1,0 +1,30 @@
+{
+  "name": "wio-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcatdmz/wio-client.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arcatdmz/wio-client/issues"
+  },
+  "homepage": "https://github.com/arcatdmz/wio-client#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
+}
