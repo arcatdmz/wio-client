@@ -3,28 +3,34 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "wifi": "node dist/wifi.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arcatdmz/wio-client.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "wio",
+    "typescript"
+  ],
+  "author": "Jun Kato <i@junkato.jp>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/arcatdmz/wio-client/issues"
   },
   "homepage": "https://github.com/arcatdmz/wio-client#readme",
   "devDependencies": {
     "@types/node": "^18.7.13",
+    "@types/node-fetch": "^2.6.2",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "node-fetch": "^3.2.10"
+    "dotenv": "^16.0.1",
+    "node-fetch": "^2.6.7"
   }
 }
